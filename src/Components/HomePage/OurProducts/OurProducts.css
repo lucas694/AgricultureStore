@@ -1,0 +1,20 @@
+.OurProductsContainer{
+    @apply flex flex-col w-full justify-center items-center py-10
+}
+.OurProductsContent{
+    @apply flex flex-col w-full justify-center items-center px-6
+}
+.OurProductsSubTitle{
+    font-family: yellowtail;
+    @apply text-2xl font-medium text-[#68A47F] text-start
+    md:text-3xl
+}
+.OurProductsTitle{
+    @apply text-3xl font-bold text-[#274C5B] text-center mt-2 w-full
+    md:text-4xl
+    sm:text-4xl
+}
+.OurProductsCardsContent{
+    @apply flex flex-row px-0 flex-wrap justify-around w-full
+    md:px-10 md:w-[80%]
+}

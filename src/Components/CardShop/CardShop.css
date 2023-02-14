@@ -1,0 +1,33 @@
+.CardShopContainer{
+    @apply flex flex-col relative mt-20
+}
+.CardShopType{
+    @apply flex items-center justify-center bg-[#274C5B] text-white text-sm font-semibold rounded-lg
+    w-24 h-6 absolute top-2 left-2
+}
+.CardShopImg{
+    @apply w-auto h-auto object-cover
+}
+.CardShopImgControl{
+    @apply flex items-center justify-center w-[335px] h-96
+}
+.CardShopTitle{
+    @apply text-[#274C5B] text-2xl font-bold mt-2
+}
+.CardShopDesc{
+    @apply flex flex-col w-full
+}
+.CardShoMoreInf{
+    @apply flex flex-row justify-between
+}
+.CardShopOldPrice{
+    @apply line-through text-[#B8B8B8] mr-2 font-semibold
+}
+.CardShopPrice{
+    @apply text-[#274C5B] font-bold
+}
+
+
+.CardShopStars{
+    @apply w-auto h-5
+}

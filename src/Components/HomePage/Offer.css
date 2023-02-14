@@ -1,0 +1,36 @@
+.OfferContainer{
+    @apply flex flex-col items-center justify-center w-full space-x-0 py-10 px-6 space-y-2
+    md:flex-row md:space-x-2 md:space-y-0
+}
+.CardOfferLeft{
+    background-image: url("../../Assets/HomePage/Offer/Offer1.png");
+    @apply flex flex-col items-start justify-center w-full py-10 px-6
+    md:w-1/2 bg-cover bg-center bg-no-repeat rounded-[30px]
+    sm:py-16
+    xl:md:w-[36%]
+}
+
+.CardOfferRight{
+    background-image: url("../../Assets/HomePage/Offer/Offer2.png");
+    @apply flex flex-col items-start justify-center w-full py-10 px-6
+    md:w-1/2 bg-cover bg-center bg-no-repeat rounded-[30px]
+    sm:py-16
+    xl:md:w-[36%]
+}
+.CardOfferRight h3{
+    @apply text-[#7EB693]
+}
+.CardOfferRight h1{
+    @apply text-[#274C5B] w-[90%]
+    2xl:w-1/2
+}
+.CardOfferSubTitle{
+    font-family: yellowtail;
+    @apply text-2xl text-white font-medium
+}
+.CardOfferTitle{
+    font-family: Roboto;
+    @apply text-3xl text-white font-bold mt-3 w-full
+    md:w-[80%] sm:text-4xl
+    xl:w-1/2
+}

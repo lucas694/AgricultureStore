@@ -40,6 +40,6 @@ const AboutUs = () => {
           <ButtonDefault className={"GrayBtn"} BtnText={"Shop Now"}/>
         </div>
       </div>
-    </div>
+   </div>
   )
 };export default AboutUs;

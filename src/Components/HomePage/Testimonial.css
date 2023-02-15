@@ -1,0 +1,58 @@
+.TestimonialContainer{
+    background-image: url("../../Assets/HomePage/TestimonialBg.jpg");
+    @apply flex flex-col w-full justify-center items-center py-14 mt-10
+    lg:bg-cover lg:bg-center bg-no-repeat md:py-32
+}
+.TestimonialContent{
+    @apply flex flex-col w-[90%] items-center
+    md:w-[70%]
+}
+.TestimonialSubTitle{
+    font-family: yellowtail;
+    @apply text-2xl font-medium text-[#68A47F] text-center
+    md:text-3xl
+}
+.TestimonialTitle{
+    @apply text-3xl font-bold text-[#274C5B] text-center mt-2 w-full
+    md:text-4xl
+    sm:text-4xl
+}
+
+.TestimonialCardsContent{
+    @apply flex items-center justify-center flex-wrap mt-10 w-full
+}
+
+.TestimonialCard{
+    @apply flex flex-col items-center justify-center w-full h-[300px]
+    bg-white rounded-lg shadow-lg p-5
+    md:w-[600px] md:h-[400px]
+}
+.TestimonialCardImgs{
+    @apply flex items-center justify-center flex-col
+}
+.TestimonialPerson{
+    @apply w-24 h-24 rounded-full
+}
+.TestimonialStars{
+    @apply mt-2 w-20 h-5
+}
+.TestimonialCardDesc{
+    @apply text-center text-[#525C60] mt-6 text-xs font-semibold
+    md:text-sm
+}
+
+.TestimonialCardDesc h1{
+    @apply text-[#274C5B] mt-2 text-lg font-bold
+}
+.TestimonialCardDesc span{
+    @apply text-[#525C60] mt-1 text-xs font-semibold
+}
+.TestimonialBall{
+    @apply  flex flex-col items-center justify-center rounded-full border-4 border-[#7EB693] bg-white
+    w-20 h-20 text-[#274C5B] text-center text-xl font-bold
+    md:w-32 md:h-32 md:text-3xl md:font-bold
+}
+.TestimonialBall p{
+    @apply text-[#274C5B] text-center text-xs font-semibold hidden
+    md:block
+}

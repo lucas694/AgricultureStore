@@ -1,21 +1,21 @@
 import "./OurProducts.css"
-import ButtonDefault from "../../Buttons/ButtonDefault";
-import CardShop from "../../CardShop/CardShop";
+import ButtonDefault from "../Buttons/ButtonDefault";
+import CardShop from "../CardShop/CardShop";
 import {useState} from "react";
 
 //ImgCards
-import Brocolis from "../../../Assets/CardsShop/Brocolis.png"
-import Banana from "../../../Assets/CardsShop/Banana.png"
-import WhiteNuts from "../../../Assets/CardsShop/WhiteNuts.png"
-import Tomato from "../../../Assets/CardsShop/Tomato.png"
-import MungBean from "../../../Assets/CardsShop/MungBean.png"
-import BrownHazel from "../../../Assets/CardsShop/BrownH.png"
-import Eggs from "../../../Assets/CardsShop/Eggs.png"
-import Zelco from "../../../Assets/CardsShop/Zelco.png"
-import Onion from "../../../Assets/CardsShop/Onion.png"
-import MungBeanVeg from "../../../Assets/CardsShop/MungBeanVeg.png"
-import FreshCorn from "../../../Assets/CardsShop/FreshCorn.png"
-import maca from "../../../Assets/CardsShop/maca.png"
+import Brocolis from "../../Assets/CardsShop/Brocolis.png"
+import Banana from "../../Assets/CardsShop/Banana.png"
+import WhiteNuts from "../../Assets/CardsShop/WhiteNuts.png"
+import Tomato from "../../Assets/CardsShop/Tomato.png"
+import MungBean from "../../Assets/CardsShop/MungBean.png"
+import BrownHazel from "../../Assets/CardsShop/BrownH.png"
+import Eggs from "../../Assets/CardsShop/Eggs.png"
+import Zelco from "../../Assets/CardsShop/Zelco.png"
+import Onion from "../../Assets/CardsShop/Onion.png"
+import MungBeanVeg from "../../Assets/CardsShop/MungBeanVeg.png"
+import FreshCorn from "../../Assets/CardsShop/FreshCorn.png"
+import maca from "../../Assets/CardsShop/maca.png"
 
 const OurProducts = () => {
   const[active, setActive] = useState(false)

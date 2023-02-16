@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
 import Newsletter from "./Components/Newsletter";
 import Footer from "./Components/Footer";
+import AboutUs from "./Components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path={"/"} element={<HomePage/>}/>
+        <Route path={"/AboutUS"} element={<AboutUs/>}/>
 
       </Routes>
       <Newsletter/>

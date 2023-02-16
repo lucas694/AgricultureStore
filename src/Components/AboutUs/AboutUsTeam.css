@@ -1,0 +1,28 @@
+.AboutUsTeamContainer{
+    @apply flex  w-full py-20 items-center justify-center
+}
+.AboutUsTeamContent{
+    @apply flex flex-col w-full items-center justify-center px-6
+    md:w-[80%] md:px-0
+}
+.AboutUsTeamSubTitle{
+    font-family: yellowtail;
+    @apply text-2xl font-medium text-[#68A47F] text-center
+    md:text-3xl
+}
+
+.AboutUsTeamTitle{
+    @apply text-3xl font-bold text-[#274C5B] text-center mt-2 w-full
+    md:text-4xl sm:text-4xl
+    xl:md:text-5xl
+}
+
+.AboutUsTeamDesc{
+    @apply text-[#525C60]  mt-4 w-full text-sm font-medium text-center
+    sm:text-sm
+    lg:w-[60%]
+}
+.AboutUsTeamCardContent{
+    @apply flex flex-col items-center justify-around w-full mt-8 flex-wrap
+    lg:flex-row
+}

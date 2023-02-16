@@ -1,0 +1,54 @@
+.WhyChoosUsContainer{
+    @apply flex flex-col w-full py-10 items-center justify-center
+    md:py-20
+}
+.WhyChoosUsContent{
+    @apply flex flex-col items-center w-full  w-full
+    md:flex-row md:w-[80%]
+}
+.WhyChoosLeft{
+    @apply flex flex-col justify-center w-full px-6
+    md:w-1/2 md:px-0
+}
+.WhyChoosRight{
+    @apply flex flex-col items-center justify-center w-full mt-6
+    md:w-1/2 md:mt-0
+}
+.WhyChoosSubTitle{
+    font-family: yellowtail;
+    @apply text-2xl font-medium text-[#68A47F] text-start
+    md:text-3xl
+}
+.WhyChoosTitle{
+    @apply text-3xl font-bold text-[#274C5B] text-start mt-2 w-full
+    md:text-4xl md:text-start sm:text-4xl
+    xl:md:text-5xl
+}
+.WhyChoosDesc{
+    @apply text-[#525C60] text-start mt-4 w-full text-sm font-medium text-center
+    2xl:w-[90%]
+    sm:text-sm
+}
+.WhyChoosUsImg{
+    @apply w-[80%] h-[80%] object-cover rounded-3xl
+}
+.WhyChoosUsPoints{
+    @apply flex flex-col w-full mt-0 py-8
+    md:mt-10 md:py-0
+}
+.WhyChoosUsCard{
+    @apply flex flex-col w-full mt-8
+}
+.WhyChoosUsIcon{
+    @apply w-4 h-4 mr-2
+}
+.WhyChoosUsCard section{
+    @apply flex flex-row items-center
+}
+.WhyChoosUsCard h1{
+    @apply text-[#274C5B] text-start font-semibold text-xl
+    xl:w-[80%]
+}
+.WhyChoosUsCard p{
+    @apply text-[#525C60] mt-6 w-full font-semibold px-6
+}

@@ -3,7 +3,7 @@
     md:flex-row
 }
 .GalleryCard{
-    @apply flex flex-col w-[80%] justify-center items-center mt-0
+    @apply flex flex-col w-[80%] justify-center items-center mt-10
     relative
     lg:w-1/4
     md:w-[32%] md:mt-10

@@ -5,6 +5,8 @@ import AboutUs from "./AboutUs";
 import OurProducts from "./OurProducts";
 import Testimonial from "./Testimonial";
 import WhoWeAre from "./WhoWeAre";
+import Gallery from "./Gallery";
+import BlogNews from "./BlogNews";
 
 const HomePage = () => {
   return(
@@ -15,6 +17,8 @@ const HomePage = () => {
       <OurProducts/>
       <Testimonial/>
       <WhoWeAre/>
+      <Gallery/>
+      <BlogNews/>
     </div>
   )
 };export default HomePage;

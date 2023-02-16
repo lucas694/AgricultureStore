@@ -18,3 +18,12 @@
 .GrayBtn:hover .ArrowIconBtn{
     @apply fill-[#f3f3f3] transform scale-110 translate-x-6 bg-[#274C5B]
 }
+
+.WhiteBtn{
+    @apply flex items-center justify-center
+    bg-white text-[#274C5B] font-bold py-3 px-10 rounded-xl w-full border-2 border-[#274C5B]
+    md:w-auto
+}
+.WhiteBtn:hover .ArrowIconBtn{
+    @apply fill-[#274C5B] transform scale-110 translate-x-6
+}

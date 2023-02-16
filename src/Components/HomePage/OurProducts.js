@@ -1,6 +1,6 @@
 import "./OurProducts.css"
 import ButtonDefault from "../Buttons/ButtonDefault";
-import CardShop from "../CardShop/CardShop";
+import CardShop from "../Cards/CardShop";
 import {useState} from "react";
 
 //ImgCards

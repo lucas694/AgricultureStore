@@ -1,0 +1,18 @@
+.GalleryContainer{
+    @apply flex flex-col w-full justify-around items-center py-10
+    md:flex-row
+}
+.GalleryCard{
+    @apply flex flex-col w-[80%] justify-center items-center mt-0
+    relative
+    lg:w-1/4
+    md:w-[32%] md:mt-10
+    sm:w-[60%]
+}
+
+.GalleryCardText{
+    @apply flex items-center justify-center bg-white w-[80%] absolute py-4 rounded-2xl text-[#274C5B]
+    font-bold text-sm
+    lg:text-base lg:py-4
+    md:py-3
+}

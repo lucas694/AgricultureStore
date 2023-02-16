@@ -16,8 +16,8 @@
     2xl:right-[22rem] 2xl:px-14
 }
 .WWAImg{
-    @apply w-full h-[40em]
-    lg:w-full
+    @apply w-full h-[30em]
+    lg:w-full md:h-[40em]
     xl:w-auto xl:h-auto
 }
 .WWASubTitle{

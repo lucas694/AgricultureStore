@@ -1,11 +1,11 @@
 .AboutUsContainer{
-    @apply flex w-full flex-col py-10 px-6
+    @apply flex w-full flex-col-reverse py-10 px-6
     md:flex-row md:px-6
 }
 
 .AboutUsLeft{
-    @apply flex w-full justify-center items-center
-    md:w-1/2
+    @apply flex w-full justify-center items-center mt-10
+    md:w-1/2 md:mt-0
 }
 .AboutUsRight{
     @apply flex flex-col w-full justify-center items-stretch

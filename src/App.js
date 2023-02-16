@@ -3,6 +3,8 @@ import './App.css';
 import Header from "./Components/Header";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
+import Newsletter from "./Components/Newsletter";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Route path={"/"} element={<HomePage/>}/>
 
       </Routes>
+      <Newsletter/>
+      <Footer/>
     </Router>
   );
 }

@@ -3,7 +3,7 @@
     md:hidden
 }
 .HeaderMobileContent{
-    @apply flex flex-row justify-around items-center w-full h-16
+    @apply flex flex-row justify-between items-center w-full h-16 px-4
 }
 .LiNavLinkMobile{
     @apply px-2 py-1.5 text-[#274C5B] font-semibold rounded-lg text-sm
@@ -27,4 +27,8 @@
 }
 .CartMobileIcon{
     @apply w-4 h-4 fill-gray-50
+}
+
+.LogoMobileHeader{
+    @apply w-32
 }

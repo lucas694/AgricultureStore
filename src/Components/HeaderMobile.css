@@ -1,0 +1,30 @@
+.HeaderMobileContainer{
+    @apply flex flex-row justify-between items-center w-full
+    md:hidden
+}
+.HeaderMobileContent{
+    @apply flex flex-row justify-around items-center w-full h-16
+}
+.LiNavLinkMobile{
+    @apply px-2 py-1.5 text-[#274C5B] font-semibold rounded-lg text-sm
+    hover:bg-[#7EB693] hover:text-white transition duration-300 ease-in-out mr-1
+}
+.NavLinkMobileIsActive{
+    @apply bg-[#7EB693] text-white mr-1 text-sm
+    px-2 py-1.5 font-bold rounded-lg
+}
+.MobileBtnSec{
+    @apply flex flex-row justify-around items-center
+}
+
+.BtnMobileIcon{
+    @apply fill-[#274C5B] w-6 h-6 ml-2
+    hover:fill-[#305a6b]
+}
+
+.BtnMobileCart{
+    @apply bg-[#274C5B] px-1.5 py-1.5 rounded-full
+}
+.CartMobileIcon{
+    @apply w-4 h-4 fill-gray-50
+}

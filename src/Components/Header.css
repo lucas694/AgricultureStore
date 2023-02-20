@@ -1,5 +1,5 @@
 .HeaderContainer{
-    @apply flex flex-row items-center justify-between py-8 px-14
+    @apply hidden flex-row items-center justify-between py-8 px-14
     md:flex
 }
 .LogoHeader{

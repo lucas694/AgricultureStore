@@ -7,11 +7,13 @@ import Footer from "./Components/Footer";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Team from "./Components/Team/Team";
 import Blog from "./Components/Blog/Blog";
+import HeaderMobile from "./Components/HeaderMobile";
 
 function App() {
   return (
     <Router>
       <Header/>
+      <HeaderMobile/>
       <Routes>
         <Route path={"/"} element={<HomePage/>}/>
         <Route path={"/AboutUS"} element={<AboutUs/>}/>

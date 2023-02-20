@@ -1,0 +1,10 @@
+.TeamBannerContainer{
+    background-image: url("../../Assets/CardTeam/BgTeam.jpg");
+    @apply flex flex-row items-center justify-center w-full py-24
+    bg-cover bg-center bg-no-repeat
+    md:py-32
+}
+.TeamTitle{
+    @apply text-[#274C5B] text-4xl font-bold text-center
+
+}

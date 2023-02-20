@@ -3,7 +3,8 @@
 }
 .AboutUsAboutContent{
     @apply flex flex-col-reverse w-full items-center
-    md:flex-row md:w-[80%]
+    md:flex-row md:w-[90%]
+    lg:w-[80%]
 }
 .AboutLeft{
     @apply flex flex-col w-full items-center justify-center mt-8
@@ -15,6 +16,7 @@
 .AboutRight{
     @apply flex flex-col w-full justify-center px-6
     md:w-1/2 md:px-0
+
 }
 
 .AboutSubTitle{

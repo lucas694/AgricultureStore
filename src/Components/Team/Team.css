@@ -1,0 +1,27 @@
+.TeamContainer{
+    @apply flex flex-col items-center w-full ;
+}
+.TeamContent{
+    @apply flex flex-col items-center w-[90%] py-10
+    md:py-16
+}
+.TeamContentText{
+    @apply flex flex-col items-center w-auto
+}
+.TeamSubTitle{
+    font-family: yellowtail;
+    @apply text-2xl font-medium text-[#68A47F] text-center
+    md:text-3xl
+}
+.TeamDesc{
+    @apply text-[#525C60]  mt-4 w-full text-xs font-medium text-center
+    sm:text-sm
+    lg:w-[60%]
+}
+.TeamCardsContent{
+    @apply flex flex-row items-center justify-around mt-8 flex-wrap  w-full
+    md:w-[90%]
+    xl:w-[80%]
+    2xl:w-[70%]
+
+}

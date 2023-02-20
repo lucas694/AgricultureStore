@@ -4,9 +4,9 @@
 }
 .NewsletterContent{
     background-image: url("../Assets/NewsLetterBG.jpg");
-    @apply flex flex-col items-center justify-between w-full py-16 px-6 w-[80%] rounded-3xl
+    @apply flex flex-col items-center justify-between w-full py-12 px-6 w-[95%] rounded-3xl
     bg-cover bg-center bg-no-repeat
-    md:flex-row md:py-24 md:px-10
+    md:flex-row md:py-24 md:px-10 lg:w-[80%]
 }
 .NewsletterTitle{
     @apply text-4xl font-bold text-white w-full

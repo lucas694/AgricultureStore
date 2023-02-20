@@ -4,7 +4,8 @@
 }
 .WhyChoosUsContent{
     @apply flex flex-col items-center w-full  w-full
-    md:flex-row md:w-[80%]
+    md:flex-row md:w-[90%]
+    lg:w-[80%]
 }
 .WhyChoosLeft{
     @apply flex flex-col justify-center w-full px-6

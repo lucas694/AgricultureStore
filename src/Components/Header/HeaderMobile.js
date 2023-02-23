@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 import {FaBars} from "react-icons/fa";
 import {BsCart3} from "react-icons/bs";
 import {useState} from "react";
-import LogoHeader from "../Assets/LogoHeader.svg"
+import LogoHeader from "../../Assets/LogoHeader.svg"
 
 
 const HeaderMobile = () => {

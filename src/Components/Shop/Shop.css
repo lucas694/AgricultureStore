@@ -1,0 +1,7 @@
+.ShopContainer{
+    @apply flex flex-col w-full items-center justify-center
+}
+.ShopProductsContainer{
+    @apply flex flex-row px-0 flex-wrap justify-around w-full
+    md:px-8 md:w-[80%]
+}

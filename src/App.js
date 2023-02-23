@@ -1,5 +1,5 @@
 import './App.css';
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
 import Newsletter from "./Components/Newsletter";
@@ -7,7 +7,8 @@ import Footer from "./Components/Footer";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Team from "./Components/Team/Team";
 import Blog from "./Components/Blog/Blog";
-import HeaderMobile from "./Components/HeaderMobile";
+import HeaderMobile from "./Components/Header/HeaderMobile";
+import Shop from "./Components/Shop/Shop";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path={"/AboutUS"} element={<AboutUs/>}/>
         <Route path={"/Team"} element={<Team/>}/>
         <Route path={"/Blog"} element={<Blog/>}/>
-
+        <Route path={"/Shop"} element={<Shop/>}/>
       </Routes>
       <Newsletter/>
       <Footer/>

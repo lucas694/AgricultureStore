@@ -27,13 +27,13 @@
 }
 
 .FooterTitle{
-    @apply text-2xl font-bold text-[#274C5B]
+    @apply text-xl font-bold text-[#274C5B]
 }
 .FooterSpan{
-    @apply text-[#525C60] text-base font-bold
+    @apply text-[#525C60] text-sm font-bold
 }
 .FooterText{
-    @apply text-[#525C60] text-sm font-medium
+    @apply text-[#525C60] text-xs font-medium
 }
 
 .FooterMain{
@@ -41,16 +41,16 @@
     md:py-0 md:w-1/3 xl:mb-10
 }
 .FooterMain p {
-    @apply text-[#525C60] text-sm font-medium text-center mt-6
+    @apply text-[#525C60] text-xs font-medium text-center mt-6
 }
 .FooterLogo{
-    @apply h-auto w-44
+    @apply h-auto w-40
 }
 .FooterSocial{
     @apply flex flex-row items-center justify-around mt-6 w-full
 }
 .FooterIcon{
-    @apply h-5 w-5 mr-4 fill-[#274C5B] cursor-pointer
+    @apply h-5 w-5 fill-[#274C5B] cursor-pointer
 }
 .FooterCopy{
     @apply flex flex-row items-center justify-center w-full py-3 border-t border-[#525C60]

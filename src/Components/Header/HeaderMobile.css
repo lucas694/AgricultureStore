@@ -1,5 +1,5 @@
 .HeaderMobileContainer{
-    @apply flex flex-row justify-between items-center w-full
+    @apply flex flex-row justify-between items-center w-full fixed bg-[#edede9] z-40 rounded-b-3xl
     md:hidden
 }
 .HeaderMobileContent{

@@ -1,7 +1,7 @@
 import "./OurProducts.css"
 import ButtonDefault from "../Buttons/ButtonDefault";
 import CardShop from "../Cards/CardShop";
-import {useState} from "react";
+import {Link} from "react-router-dom";
 
 //ImgCards
 import Brocolis from "../../Assets/CardsShop/Brocolis.png"
@@ -18,12 +18,6 @@ import FreshCorn from "../../Assets/CardsShop/FreshCorn.png"
 import maca from "../../Assets/CardsShop/maca.png"
 
 const OurProducts = () => {
-  const[active, setActive] = useState(false)
-  const togleActive = () => {
-    setActive(!active)
-
-  }
-
   const OurProductsData =[
     {id:1, img:Brocolis, title:"Calabrese Broccoli",type:"Vegetable" ,oldPrice:"$20.00", price:"$13.00",},
     {id:2, img:Banana, title:"Fresh Banana Fruites",type:"Fresh" ,oldPrice:"$20.00", price:"$14.00",},
@@ -33,10 +27,6 @@ const OurProducts = () => {
     {id:6, img:Eggs, title:"Eggs",type:"Fresh" ,oldPrice:"$20.00", price:"$17.00",},
     {id:7, img:Zelco, title:"Zelco Suji Elaichi Rusk",type:"Fresh" ,oldPrice:"$20.00", price:"$15.00",},
     {id:8, img:maca, title:"Red Apple",type:"Fresh" ,oldPrice:"$20.00", price:"$14.00",},
-    {id:9, img:Tomato, title:"Vegan Red Tomato",type:"Vegetable" ,oldPrice:"$20.00", price:"$17.00",},
-    {id:10, img:MungBeanVeg, title:"Mung Bean",type:"Vegetable" ,oldPrice:"$20.00", price:"$11.00",},
-    {id:11, img:Onion, title:"Onion",type:"Vegetable" ,oldPrice:"$20.00", price:"$17.00",},
-    {id:12, img:FreshCorn, title:"Fresh Corn",type:"Fresh" ,oldPrice:"$20.00", price:"$17.00",},
   ]
   return(
     <div className={"OurProductsContainer"}>
@@ -45,7 +35,7 @@ const OurProducts = () => {
         <h1 className={"OurProductsTitle"}>Our Products</h1>
         {/*Cards Here*/}
         <div className={"OurProductsCardsContent"}>
-          {OurProductsData.slice(0, active ? OurProductsData.length : OurProductsData.length -4).map (item => {
+          {OurProductsData.map (item => {
             return(
               <CardShop
                 key={item.id}
@@ -60,7 +50,9 @@ const OurProducts = () => {
         </div>
         {/*Cards Here*/}
         <div className={"w-full md:w-auto mt-10"}>
-          <ButtonDefault className={"GrayBtn"} BtnText={"LoadMore"} onClick={togleActive}/>
+          <Link to={"/Shop"}>
+            <ButtonDefault className={"GrayBtn"} BtnText={"See More"}/>
+          </Link>
         </div>
       </div>
     </div>

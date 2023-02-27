@@ -1,0 +1,55 @@
+.CardShopCartModelContainer{
+    @apply flex flex-row relative w-full h-auto bg-gray-50 rounded-2xl mt-2 mb-2 overflow-hidden
+    xl:h-24
+}
+.CardShopCartModelQnt{
+    @apply flex items-center justify-center bg-red-500 text-white text-xs font-semibold rounded-full
+     absolute top-2 left-2 w-6 h-6
+}
+
+.CardShopCartModelImgControl{
+    @apply flex items-center justify-center w-1/3 h-auto
+}
+.CardShopCartModelImg{
+    @apply w-full h-full object-cover
+}
+.CardShopCartModelDesc{
+    @apply flex flex-col w-2/3 pr-2
+}
+.CardShopCartModelTitle{
+    @apply text-[#274C5B] text-sm font-bold mt-2
+    xl:text-base
+}
+.CardShopCartModelMoreInf{
+    @apply flex flex-row justify-between
+}
+.CardShopCartModelPrice{
+    @apply text-[#274C5B] font-bold text-xs
+}
+.CardShopCartModelStars{
+    @apply w-auto h-4
+    xl:h-auto
+}
+
+/*Buttons add and Remove*/
+.CardShopCartModelBtnControl{
+    @apply flex justify-around flex-row w-full mt-1
+    xl:mt-2
+}
+.CardShopCartModelAddBtn{
+    @apply flex items-center justify-center w-7 h-7 bg-green-500 rounded-full
+    hover:bg-green-400 transition duration-500 ease-in-out
+}
+.CardShopCartModelDelBtn{
+    @apply flex items-center justify-center w-7 h-7 bg-red-500 rounded-full
+    hover:bg-red-400 transition duration-500 ease-in-out
+}
+.CardShopCartModelIcon{
+    @apply w-4 h-4 stroke-white
+}
+.CardShopCartModelAddBtn:hover .CardShopCartModelIcon{
+    @apply rotate-90 transition duration-500 ease-in-out scale-125
+}
+.CardShopCartModelDelBtn:hover .CardShopCartModelIcon{
+    @apply transition duration-500 ease-in-out scale-125
+}

@@ -9,6 +9,7 @@ import ModalCartContent from "./ModalCartContent";
 const Header = () => {
   const[isOpen, setIsOpen] = useState(false)
   const toggle = () => setIsOpen(!isOpen)
+
   return(
     <div className={"HeaderContainer"}>
       <div className={isOpen ? "ModalCart" : "hidden"}>

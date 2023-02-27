@@ -34,7 +34,7 @@
 }
 
 .ModalCart{
-    @apply hidden flex-col items-center w-[20em] h-screen fixed rounded-tl-[5em]
+    @apply hidden flex-col items-center w-[20em] h-screen fixed rounded-tl-[4em]
     bg-black bg-opacity-50 fixed right-0 top-24 z-50 py-10 px-6
     md:w-[16em] md:top-24 md:flex
     lg:w-[16em] lg:top-0
@@ -52,6 +52,6 @@
 }
 
 .ModalContent{
-    @apply flex flex-col items-center w-full h-full border-2 mt-10
+    @apply flex flex-col items-center w-full h-full mt-10
     overflow-y-auto
 }

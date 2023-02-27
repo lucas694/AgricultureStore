@@ -59,7 +59,7 @@ const Shop = () => {
         })}
       </div>
       <div className={"w-[90%] md:w-auto mt-10"}>
-        <ButtonDefault className={"GrayBtn"} BtnText={"Load More"} onClick={togleActive}/>
+        <ButtonDefault className={"GrayBtn"} BtnText={active ? "Hide" : "Show More"} onClick={togleActive}/>
       </div>
     </div>
   )
